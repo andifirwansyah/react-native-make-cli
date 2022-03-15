@@ -8,16 +8,16 @@ def main():
     wait = animation.Wait('spinner')
     projectName = input('Enter project name : ')
     projectStructure = [
-        'Scenes',
-        'Navigations',
-        'Components',
-        'Styles',
-        'Assets',
-        'Actions',
-        'Constants',
-        'Reducers',
-        'Stores',
-        'Utils'
+        'scenes',
+        'navigations',
+        'components',
+        'styles',
+        'assets',
+        'actions',
+        'constants',
+        'reducers',
+        'stores',
+        'utils'
     ]
     navigations = ['app','auth','tab']
     try:
